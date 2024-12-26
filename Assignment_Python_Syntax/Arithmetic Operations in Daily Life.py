@@ -19,6 +19,7 @@ Year = 1
 result = Interest_Rate * savings_account
 print(result)
 
+# I just wanted to try something out and see if it would work. :)
 interest_earned = Interest_Rate * savings_account
 print(interest_earned)
 total_amount = interest_earned + savings_account
