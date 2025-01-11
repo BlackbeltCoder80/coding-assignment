@@ -2,9 +2,11 @@
 # Write a Python program that asks the user to enter three numbers. 
 # Your code should then identify and print out the largest number among the three.
 
+
 number_1 = int(input ("Enter the first numebr that comes to your mind: "))
 number_2 = int(input("Enter the second numer that comes to your mint:"))
 number_3 = int(input("Enter the final number that comes to your mind: "))
+
 if number_1 > number_2 and number_1 > number_3:
     print(number_1, "Is The greatest")
 elif number_2 > number_1 and number_2 > number_3:
@@ -22,11 +24,22 @@ else:
 number_1 = int(input ("Enter the first numebr that comes to your mind: "))
 number_2 = int(input("Enter the second numer that comes to your mint:"))
 number_3 = int(input("Enter the final number that comes to your mind: "))
-if number_1 > number_2 and number_1 > number_3 and number_2 < number_3:
-    print(number_1, "Is The greatest and", number_2, "is the smallest")
-elif number_2 > number_1 and number_2 > number_3 and number_3 < number_1:
-    print(number_2, "Is The Greatest and", number_3, "is the smallest")
-elif number_3 > number_1 and number_3 > number_2 and number_1 > number_2:
-    print(number_3, "Is The Greatest and", number_1, "is the smallest")
+
+message = ""
+
+if number_1 == number_2 == number_3:
+    message = "All numbers are equal"
 else:
-    print("Equal")
+    if number_1 >= number_2 and number_1 >= number_3:
+        message += f"{number_1} is the greatest and "
+    elif number_2 >= number_1 and number_2 >= number_3:
+        message += f"{number_2} is the greatest and "
+    elif number_3 >= number_1 and number_3 >= number_2:
+        message += f"{number_3} is greates and "
+        if number_1 <= number_2 and number_1 <= number_3:
+            message += f"{number_1} is the smallest. "
+    elif number_2 <= number_1 and number_2 <= number_3:
+        message += f"{number_2} is the smallest. "
+    elif number_3 <= number_1 and number_3 <= number_2:
+        message += f"{number_3} is the smallest. "
+    print(message)
