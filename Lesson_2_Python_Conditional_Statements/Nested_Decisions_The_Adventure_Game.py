@@ -36,7 +36,7 @@ if action == "cross a river":
         else:
             pass
     elif action == "no":
-            print(f"{player_1} How are we supposed to cross the river with no paddle our hands?")
+            print(f"{player_1} How are we supposed to cross the river? With no paddles, our hands!")
 
 
 # Task 2: Setting the Scene
