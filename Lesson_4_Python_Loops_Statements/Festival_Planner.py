@@ -43,4 +43,6 @@ for i in range(len(booth_types)):
     item = items_needed[i]
     print(f"{booth} Booth - Schedule: {time} Itme need: {item}")
     #Updated
-    
+    print(kids)
+dfsfsfsd
+
