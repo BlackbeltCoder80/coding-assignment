@@ -17,6 +17,7 @@ print("The temperature was never below 0 to begin with.")
 while True:
    user_input = input("Say 'stop' to end the refill: ")
    if user_input.lower() == 'stop':
-      break
+      break # Break Statements allow loops to stop when needed if note used loops can be 
+   #infinite loops, potentially causing your program to freeze or use excessive resources.
    else:
       print("Here's more coffee!")
