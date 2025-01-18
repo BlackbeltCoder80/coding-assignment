@@ -44,5 +44,4 @@ for i in range(len(booth_types)):
     print(f"{booth} Booth - Schedule: {time} Itme need: {item}")
     #Updated
     print(kids)
-dfsfsfsd
 
