@@ -17,5 +17,11 @@ while count_down_timer >= 0:
         print("time is almost up") # Warning time is up
     elif count_down_timer == 0:
         print("time is up")
+
+timer = 10
+while timer > 0:
+    print(timer)
+    timer -= 1
+print("Time is up!")
         
    
