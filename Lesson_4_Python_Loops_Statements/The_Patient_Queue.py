@@ -1,7 +1,7 @@
 # Use While loop to manage a queue system.
 # What will I need in a queue? "List", Time, Remove form index"
 # Needed Items:
-# time moudle "input time" 
+# time module "input time" 
 # Who will be in a Queue "People"
 # How long they will be in the Queue? "60 seconds"
 import time
