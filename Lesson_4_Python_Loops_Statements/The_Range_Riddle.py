@@ -19,3 +19,9 @@ days_of_week = ["Mondy", "Tuesday", "Wednesday", "Thurday", "Friday", "Saturday"
 for i in range(len(days_of_week)):
     mood = random.choice(mood_list)
     print(f"On {days_of_week[i]}, you were feeling {mood}")
+
+    # Unfortantely I had it worn a few times I had to go over index twice to get it. 
+    # Once I got it I realized it took far to long to complete.
+    # I'll feel so much better once I get used to using specific functions.
+    # Im going to start working on scripts for Roll20.
+    #Try and create small blocks of code script until i memorize the functions and how they are used in the code.

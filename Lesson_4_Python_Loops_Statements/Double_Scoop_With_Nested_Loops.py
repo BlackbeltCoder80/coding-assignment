@@ -23,3 +23,8 @@ for i in range(len(days_of_week)):
     mood = random.choice(mood_list)
     day = random.choice(time_of_day)
     print(f"On {days_of_week[i]}, {day} you were feeling {mood}")
+
+    # Awesome just built off the first code made it much easier... Also I got this memorized now at least I hope so lol...
+    # I really appreciate you guys and your work. Ive really enjoyed being here workign with you guys.
+    # I really hope to return with more knowldege to expand and or send my own team here one day. 
+    # Huge Thanks.
