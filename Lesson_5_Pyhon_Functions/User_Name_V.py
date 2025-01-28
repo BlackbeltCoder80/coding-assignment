@@ -1,6 +1,6 @@
 while True:
     user_name = input("Please enter you name here:")
-    if 5<+len(user_name) <=15:
+    if len(user_name) <=15:
         print("Username is valid")
     else:
         print("Username must be between 5 and 15 characters!")
