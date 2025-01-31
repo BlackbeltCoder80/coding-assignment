@@ -1,0 +1,27 @@
+# Objective: The aim of this assignment is to deepen your understanding of Python's range() function.
+
+#Task 1: Your Mood Today Write a program that prints off different moods for each day of the week. 
+# Create a list of moods such as "Happy", "Sad", "Energetic", and "Calm". 
+# Using the range() function, loop through every day of the week 
+# and for each day, randomly select a mood from the list and print it. 
+# Ensure that your program includes the use of the random module to select the mood.
+
+#Example Outcome: An example output could be "On Wednesday, you were feeling happy." "On Thursday you were feeling sad."
+
+
+import random
+
+
+mood_list = ["Happy", "Sad", "Energetic", "Calm"]
+
+days_of_week = ["Mondy", "Tuesday", "Wednesday", "Thurday", "Friday", "Saturday", "Sunday"]
+
+for i in range(len(days_of_week)):
+    mood = random.choice(mood_list)
+    print(f"On {days_of_week[i]}, you were feeling {mood}")
+
+    # Unfortantely I had it worn a few times I had to go over index twice to get it. 
+    # Once I got it I realized it took far to long to complete.
+    # I'll feel so much better once I get used to using specific functions.
+    # Im going to start working on scripts for Roll20.
+    #Try and create small blocks of code script until i memorize the functions and how they are used in the code.
